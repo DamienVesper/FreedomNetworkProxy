@@ -1,0 +1,56 @@
+{
+  "name": "freedom-network-proxy",
+  "version": "1.0.0",
+  "description": "Proxies, built better.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.js",
+    "dev:lint": "eslint ./src --ext .ts --fix",
+    "dev:lint:ci": "eslint ./src --ext .ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamienVesper/FreedomNetworkProxy.git"
+  },
+  "keywords": [],
+  "author": "DamienVesper",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/DamienVesper/FreedomNetworkProxy/issues"
+  },
+  "homepage": "https://github.com/DamienVesper/FreedomNetworkProxy#readme",
+  "devDependencies": {
+    "@types/css-tree": "^1.0.7",
+    "@types/express": "^4.17.13",
+    "@types/express-ws": "^3.0.1",
+    "@types/jsdom": "^16.2.14",
+    "@types/node": "^17.0.13",
+    "@types/parse5": "^6.0.3",
+    "@types/ws": "^8.2.2",
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "dotenv": "^14.3.2",
+    "eslint": "^8.8.0",
+    "eslint-config-standard-with-typescript": "^21.0.1",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "acorn-hammerhead": "^0.5.0",
+    "axios": "^0.25.0",
+    "corrosion": "^1.0.0",
+    "css-tree": "^2.0.4",
+    "express": "^4.17.2",
+    "express-ws": "^5.0.2",
+    "jsdom": "^19.0.0",
+    "mime": "^3.0.0",
+    "parse5": "^6.0.1",
+    "ws": "^8.4.2"
+  }
+}
