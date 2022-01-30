@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
+    "dev": "ts-node ./src/server/index.ts",
     "start": "node ./dist/index.js",
     "dev:lint": "eslint ./src --ext .ts --fix",
     "dev:lint:ci": "eslint ./src --ext .ts"
