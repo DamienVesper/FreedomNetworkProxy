@@ -5,9 +5,6 @@ import app from './app';
 import * as HTTP from 'http';
 import * as HTTPS from 'https';
 
-/**
- * Express server.
- */
 const server = config.ssl
     ? HTTPS.createServer({
         key: config.sslParams.key,
