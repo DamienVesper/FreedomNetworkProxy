@@ -14,4 +14,6 @@ const proxy = new Corrosion({
     ]
 });
 
+proxy.bundleScripts();
+
 export default proxy;
