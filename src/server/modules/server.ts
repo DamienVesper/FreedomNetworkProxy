@@ -12,7 +12,4 @@ const server = config.ssl
     }, app)
     : HTTP.createServer(app);
 
-// Listen on specified port.
-server.listen(config.port);
-
 export default server;
