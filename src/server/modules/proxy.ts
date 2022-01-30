@@ -1,6 +1,6 @@
 import config from '../../../config/config';
 
-import * as Corrosion from 'corrosion';
+import Corrosion from 'corrosion';
 
 const proxy = new Corrosion({
     prefix: config.prefix,
