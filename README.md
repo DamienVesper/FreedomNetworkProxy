@@ -1,0 +1,2 @@
+# FreedomNetworkProxy
+Proxies, built better.
