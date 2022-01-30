@@ -2,10 +2,10 @@
   "name": "freedom-network-proxy",
   "version": "1.0.0",
   "description": "Proxies, built better.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node ./src/server/index.ts",
+    "dev": "ts-node ./src/index.ts",
     "start": "node ./dist/index.js",
     "dev:lint": "eslint ./src --ext .ts --fix",
     "dev:lint:ci": "eslint ./src --ext .ts"

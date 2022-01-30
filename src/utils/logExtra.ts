@@ -1,4 +1,4 @@
-import { author, version } from '../../../package.json';
+import { author, version } from '../../package.json';
 
 /**
  * Log a header to the console.
